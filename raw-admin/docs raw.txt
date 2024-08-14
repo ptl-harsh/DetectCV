@@ -1,0 +1,24 @@
+--------------------
+python 3.8
+
+
+pip install cmake==3.18.4 dlib==19.22.0 face_recognition==1.3.0 numpy==1.19.5 opencv-python==4.5.4.60
+
+
+pip install dlib==19.24.2
+
+face-recognition 1.3.0
+opencv-py 4.5.4.60
+
+
+in AttendanceProject.py
+
+// try changing the camera index from 0 to 1 or -1 to see if it makes a difference.
+cap = cv2.VideoCapture(1) 
+
+
+
+pip install flask
+
+-----------------
+
